@@ -15,13 +15,16 @@ The sinking of the Titanic in 1912 resulted in the loss of over 1,500 lives. Thi
 ML-Titanic-Dataset/
 ├── README.md                        # Project overview and guide (this file)
 ├── ANALYSIS.md                      # Detailed analysis and algorithm comparison
+├── PROJECT_STRUCTURE.md             # Complete file organization
+├── QUICKSTART.md                    # Quick reference guide
+├── CONTRIBUTING.md                  # Contribution guidelines
 ├── requirements.txt                 # Python dependencies with versions
 ├── .gitignore                       # Git configuration to exclude unnecessary files
 ├── LICENSE                          # MIT License
 │
 ├── titanic.csv                      # Original Titanic dataset (891 passengers)
 │
-└── Notebooks (7 Algorithm Implementations):
+└── notebooks/                       # ML Algorithm Implementations (7 models)
     ├── titanic_logistic_regression.ipynb      # Logistic Regression baseline
     ├── titanic_decision_tree.ipynb            # Decision Tree classifier
     ├── titanic_random_forest.ipynb            # Random Forest ensemble
